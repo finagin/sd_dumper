@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<templateSet group="Laravel-Routes">
-    <template name="Route::get" value="dumper($VAR$$END$);" description="Basic Route with Closure (get, post, any)" toReformat="true" toShortenFQNames="true">
-        <variable name="NAME" expression="" alwaysStopAt="true" />
+<templateSet group="SD-Dumper">
+    <template name="dumper" value="dumper($VAR$$END$);" description="Basic Route with Closure (get, post, any)" toReformat="true" toShortenFQNames="true">
+        <variable name="VAR" expression="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="false" />
             <option name="HTML" value="false" />
